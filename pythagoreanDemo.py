@@ -1,1 +1,9 @@
+#Erik Hansen
+#9/1/2017
+#pythagoreanDemo.py - finding the hypotenuse of a right triangle
 
+from math import sqrt
+
+a = float(input('Enter leg 1: '))
+b = float(input('Enter leg 2: '))
+print('The hypotense is', sqrt(a**2 + b**2))
